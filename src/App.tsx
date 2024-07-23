@@ -18,8 +18,6 @@ function App() {
           <Hero />
           <CurrentCourses />
           <UpcomingCourses />
-          <Footer />
-          {/* <Modal close={close}/> */}
           <div>
             <button onClick={openModal}>Open Modal</button>
             {isOpen && <Modal close={closeModal} />}

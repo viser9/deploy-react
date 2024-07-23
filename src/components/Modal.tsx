@@ -20,7 +20,6 @@ export const Modal = ({ close }: { close: () => void }) => {
           className="w-full px-4"
           onSubmit={(e) => {
             e.preventDefault();
-            // Handle form submission here
             close();
           }}
         >
