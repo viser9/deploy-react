@@ -10,12 +10,14 @@ export default function () {
             title="fullstack dev"
             content="0-1 track full course"
             ima="https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/adhoc.jpg"
+            event={() => window.location.href = "https://app.100xdevs.com"}
           />
           <CourseCard
             title="fullstack dev2"
             content="1-100 track full course"
             ima="https://appx-wsb-gcp.akamai.net.in/teachcode/admin/COURSE/cover/1699610005757WhatsApp-Image-2023-11-10-at-3.16.18-PM.jpeg"
-          />
+            event={() => window.location.href = "https://app.100xdevs.com"}
+          /> 
         </div>
       </div>
     </>

@@ -11,8 +11,8 @@ export default function () {
             height={75}
           ></img>
           <div className="space-x-2">
-            <Button>Sign In</Button>
-            <Button>Sign Up</Button>
+            <Button onClick={() => null}>Sign In</Button>
+            <Button onClick={() => null}>Sign Up</Button>
           </div>
         </div>
       </div>

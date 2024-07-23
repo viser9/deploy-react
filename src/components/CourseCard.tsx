@@ -4,10 +4,12 @@ export const CourseCard = ({
   title,
   content,
   ima,
+  event,
 }: {
   title: String;
   content: String;
   ima: string;
+  event: () => void;
 }) => {
   return (
     <>
@@ -24,7 +26,7 @@ export const CourseCard = ({
           <p className="text-gray-700 text-base">{content}</p>
         </div>
         <div className="flex justify-center pb-4">
-          <Button>See course</Button>
+          <Button onClick={event}>See course</Button>
         </div>
       </div>
     </>
