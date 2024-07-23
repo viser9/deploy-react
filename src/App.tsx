@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CurrentCourses from "./components/CurrentCourses";
-import Footer from "./components/Footer";
 import UpcomingCourses from "./components/UpcomingCourses";
 import { Modal } from "./components/Modal";
 import { useState } from "react";
